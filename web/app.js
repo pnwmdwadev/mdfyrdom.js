@@ -2294,7 +2294,7 @@ if (typeof PDFJSDev === "undefined" || PDFJSDev.test("GENERIC")) {
     // Removing of the following line will not guarantee that the viewer will
     // start accepting URLs from foreign origin -- CORS headers on the remote
     // server must be properly configured.
-    throw ex;
+    // throw ex;
   };
 
   // eslint-disable-next-line no-var
